@@ -1,0 +1,25 @@
+@import '../../styles/settings.scss';
+
+.button {
+
+  background: $color-success;
+  color: $color-light;
+  font-family: $font-text;
+  font-size: $base-size * 1.5;
+  font-weight: 600;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: $radius;
+
+  cursor: pointer;
+
+  transition: $transition;
+
+}
+
+.button:hover {
+
+  background: lighten($color-success, 10%);
+
+}

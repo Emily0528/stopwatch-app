@@ -1,0 +1,37 @@
+@import '../../styles/settings.scss';
+
+.stopwatch {
+
+  background: $color-dark;
+  padding: 40px;
+  border-radius: $radius;
+  text-align: center;
+
+}
+
+.buttons {
+
+  margin-top: 30px;
+
+}
+
+.button {
+
+  background: $color-success;
+  color: $color-light;
+  font-family: $font-text;
+  font-size: $base-size * 1.5;
+  padding: 15px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: $radius;
+  cursor: pointer;
+  transition: $transition;
+
+}
+
+.button:hover {
+
+  background: lighten($color-success, 10%);
+
+}

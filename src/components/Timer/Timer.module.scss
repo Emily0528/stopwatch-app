@@ -1,0 +1,11 @@
+@import '../../styles/settings.scss';
+
+.timer {
+
+  font-family: $font-text;
+  font-size: $base-size * 6;
+  color: $color-light;
+  margin-bottom: $base-size * 3;
+  letter-spacing: 2px;
+
+}

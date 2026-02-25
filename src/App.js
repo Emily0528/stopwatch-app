@@ -1,9 +1,16 @@
-import React from 'react';
+import Container from './components/Container/Container';
+import Stopwatch from './components/Stopwatch/Stopwatch';
+import './styles/normalize.scss';
+import './styles/global.scss';
 
-function App() {
+const App = () => {
+
   return (
-    <div></div>
+    <Container>
+      <Stopwatch />
+    </Container>
   );
-}
+
+};
 
 export default App;
